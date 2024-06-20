@@ -41,8 +41,8 @@
     <td align="center"><a href="https://github.com/OSEUK"><b>OSEUK</b></a></td>
   </tr>
   <tr> 
-    <td align="center"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"><br/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"></td>
-    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"><br/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"><br/><img src="https://img.shields.io/badge/sql-%2300f.svg?style=for-the-badge&logo=sql&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"><br/><img src="https://img.shields.io/badge/sql-%2300f.svg?style=for-the-badge&logo=sql&logoColor=white"></td>
   </tr> 
 </table>
 
@@ -65,10 +65,11 @@
 
 ## 📁 Repository 폴더 구조
 ```
-{Github ID}/season2/{날짜}/{코드.java}
+{Github ID}/algorithm/{날짜}/{코드.java}
+{Github ID}/sql/{날짜}/{코드.sql}
 ```
 
-- 💡 예시: `jinny-l/season2/_230809/PGS_다트_게임.java`
+- 💡 예시: `cjh-19/algorithm/_240620/PGS_다트_게임.java`
 
 <br/>
 
@@ -111,7 +112,7 @@
 [날짜] {플랫폼 or 언어} {문제 제목} - {기타 내용}
 ```
 
-- 💡 예시: `[230809] PGS 다트 게임 - 1문제`
+- 💡 예시: `[240620] PGS 다트 게임 - 1문제`
 
 ---
 
