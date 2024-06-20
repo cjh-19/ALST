@@ -7,11 +7,11 @@
   </tr>
   <tr>
     <td>스터디 장소</td>
-    <td>온라인</td>
+    <td>온라인, 대면</td>
   </tr>
   <tr>
     <td>정기 스터디 시간</td>
-    <td>수요일 19:00 ~ 21:00 [2h] <br> 금요일 19:00 ~ 21:00 [2h]
+    <td>토요일 10:00 ~ 12:00 OR 17:00 ~ 19:00 [2h]
   </tr>
   <tr>
     <td>플랫폼</td>
@@ -20,7 +20,9 @@
   <tr>
     <td>언어</td>
     <td><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> 
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+        <img src="https://img.shields.io/badge/sql-%2300f.svg?style=for-the-badge&logo=sql&logoColor=white">
     </td>
   </tr>
 </table>
@@ -39,7 +41,7 @@
     <td align="center"><a href="https://github.com/OSEUK"><b>OSEUK</b></a></td>
   </tr>
   <tr> 
-    <td align="center"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"><br/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"><br/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
   </tr> 
 </table>
@@ -50,7 +52,7 @@
 - 스터디는 온라인으로 2시간 진행한다.
   - 1시간 30분: 문제 풀이
   - 30분: 당일 알고리즘 풀이 공유
-- 당일에 알고리즘 문제 2~3개 선정하여 푼다.
+- 당일에 SQL 문제 1개, 알고리즘 문제 1~3개 선정하여 푼다.
   
 <br/>
 
