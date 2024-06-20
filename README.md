@@ -69,7 +69,7 @@
 {Github ID}/sql/{날짜}/{코드.sql}
 ```
 
-- 💡 예시: `cjh-19/algorithm/_240620/PGS_다트_게임.java`
+- 💡 예시: `cjh-19/algorithm/week1/PGS_다트_게임.java`
 
 <br/>
 
