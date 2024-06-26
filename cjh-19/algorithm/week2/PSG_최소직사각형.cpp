@@ -19,11 +19,9 @@ int solution(vector<vector<int>> sizes) {
     int xMax = 0, yMax = 0;
     for (int i = 0; i < sizes.size(); i++) {
         // 가로
-        if (xMax < sizes[i][0])
-            xMax = sizes[i][0];
+        xMax = max(xMax, sizes[i][0]);
         // 세로
-        if (yMax < sizes[i][1])
-            yMax = sizes[i][1];
+        yMax = max(yMax, sizes[i][1]);
     }
 
     return xMax * yMax;
