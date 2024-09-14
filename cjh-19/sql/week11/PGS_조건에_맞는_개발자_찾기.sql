@@ -1,4 +1,9 @@
 SELECT A.ID, A.EMAIL, A.FIRST_NAME, A.LAST_NAME
 FROM DEVELOPERS AS A
-WHERE (A.SKILL_CODE & 256) > 0 OR (A.SKILL_CODE & 1024) > 0
+WHERE A.SKILL_CODE & (SELECT CODE
+                     FROM SKILLCODES
+                     WHERE NAME = 'Python') > 0
+OR  A.SKILL_CODE & (SELECT CODE
+                   FROM SKILLCODES
+                   WHERE NAME = 'C#') > 0
 ORDER BY A.ID ASC;
