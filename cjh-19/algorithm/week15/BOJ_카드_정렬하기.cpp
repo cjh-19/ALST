@@ -4,18 +4,11 @@
 
 using namespace std;
 
-// 오름차순
-struct cmp {
-	bool operator()(int x, int y) {
-		return x > y;
-	}
-};
-
 int main() {
 	ios_base::sync_with_stdio(0); cin.tie(0);
 
 	int N;
-	priority_queue<int, vector<int>, cmp> pq; // minHeap
+	priority_queue<int, vector<int>, greater<int>> pq; // minHeap
 
 	cin >> N;
 	for (int i = 0; i < N; i++) {
