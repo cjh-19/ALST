@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <climits>
 
 using namespace std;
 
@@ -24,7 +25,7 @@ void dijkstra() {
 			int next_node = node[nodeNum][i].first; // 연결 노드 번호
 			int next_dis = dis + node[nodeNum][i].second; // 지금까지 가중치 + 연결 노드와의 가중치
 
-			if (dist[next_node] == -1 || dist[next_node] > next_dis) {
+			if (dist[next_node] > next_dis) {
 				dist[next_node] = next_dis;
 				pq.push({ next_dis, next_node }); // 최소 거리라면 큐에 추가
 			}
@@ -44,12 +45,12 @@ int main() {
 		node[u].push_back({ v,w });
 	}
 
-	dist.resize(V + 1, -1);
+	dist.resize(V + 1, INT_MAX);
 
 	dijkstra();
 
 	for (int i = 1; i <= V; i++) {
-		if (dist[i] == -1) cout << "INF" << "\n";
+		if (dist[i] == INT_MAX) cout << "INF" << "\n";
 		else cout << dist[i] << "\n";
 	}
 
