@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>프로그래머스, 백준, 코드트리, 소프티어</td>
+    <td>프로그래머스, 백준, 코드트리, 소프티어, SW Expert Academy</td>
   </tr>
   <tr>
     <td>언어</td>
@@ -90,6 +90,7 @@
 | 프로그래머스 | PGS |
 | 코드트리 | CDT |
 | 소프티어 | SFT |
+| SW Expert Academy | SWEA |
 
 ### 이모지 및 태그
 
