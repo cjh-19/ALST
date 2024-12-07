@@ -14,11 +14,13 @@ int main() {
 	}
 
 	long long maxMoney = 0;
+	long long sum = 0;
+	for (int i = 0; i < m; i++) {
+		sum += money[i];
+	}
+	maxMoney = max(maxMoney, sum);
 	for (int start = 0; start < n - m; start++) {
-		long long sum = 0;
-		for (int i = start; i < start + m; i++) {
-			sum += money[i];
-		}
+		sum += money[start + m] - money[start];
 		maxMoney = max(maxMoney, sum);
 	}
 
